@@ -20,6 +20,20 @@ Options:
   --help                 Show this message and exit.
 ```
 
+## Installation
+
+### Pip
+
+```
+$ pip3 install git+ssh://git@github.com/reverbc/slack-cli.git
+```
+
+### Pipsi (https://github.com/mitsuhiko/pipsi)
+
+```
+$ pipsi install --python python3.6 git+ssh://git@github.com/reverbc/slack-cli.git
+```
+
 ## How-To
 
 1. Copy `slack-cli.json.template` to `~/.slack-cli.json`
@@ -34,5 +48,5 @@ Options:
 1. (Optional) Limit available channels in `CHANNELS` of `~/.slack-cli.json`
 1. Say hello, world
 ```
-$ slack --target random hello, world!
+$ slack hello, world!
 ```
